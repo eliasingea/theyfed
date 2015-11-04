@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>didTheyFeed</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="{{ url_for('static', filename='css/ie/html5shiv.js') }}"></script><![endif]-->
+		<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery.poptrox.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/skel.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/init.js') }}"></script>
+		<noscript> 
+			<link rel="stylesheet" href="{{ url_for('static', filename='css/skel.css') }}" />
+			<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+			<link rel="stylesheet" href="{{ url_for('static', filename='css/style-xlarge.css') }}" />
+
+		 </noscript> 
+		<!--[if lte IE 8]><link rel="stylesheet" href="{{ url_for('static', filename='css/ie/v8.css') }}" /><![endif]-->
+	</head>
+<style>
+form {width:auto;display:inline-block; text-align: center; }
+input[type=text] { float: center; width: 250px; display:inline-block; text-align: center; }
+.clear { clear: both; height: 0; line-height: 0; }
+.floatleft { float: left; }
+h2 {width: auto; display:inline-block; text-align: center;font-size: 5.85em}
+body {
+	padding: 120px 120px;
+	font: 13px/100% Verdana, sans-serif;
+	overflow: hidden;
+    text-align: center;
+}
+</style>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64144933-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<section id="one">
+<form action ="/" method = "POST">
+						
+						<header>
+							<h2>Have They <br> 
+							Fed?</h2>
+						</header>
+					
+						
+						<div class="row">
+
+							<div class="10u 12u$(2)">
+								<form method="post" action="#">
+									<div class="row uniform 100%">
+										
+										<div class="12u$"><input type = "text" name="summoner1" id="message" placeholder="Summoner One"></textarea></div>
+										<div class="12u$"><input type = "text" name="summoner2" id="message" placeholder="Summoner two" ></textarea></div>
+									</div>
+								&nbsp;<br />
+								<ul class="actions">
+									<li><input type="submit" value="Find" /></li>
+								</ul>
+								</form>
+							</div>
+							<div class="12u$ 12u$(2)">
+								
+							</div>
+
+</form> 
